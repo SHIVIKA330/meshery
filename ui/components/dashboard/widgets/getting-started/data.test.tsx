@@ -100,7 +100,7 @@ describe('stepsData', () => {
     const openSpy = vi.spyOn(window, 'open').mockImplementation(() => null);
     (action as () => void)();
     expect(openSpy).toHaveBeenCalledWith(
-      'https://cloud.meshery.io/academy/learning-paths/11111111-1111-1111-1111-111111111111/mastering-meshery',
+      'https://layer5.io/learn/learning-paths/mastering-meshery',
       '_blank',
     );
     openSpy.mockRestore();

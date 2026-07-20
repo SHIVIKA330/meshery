@@ -223,7 +223,7 @@ export const stepsData = [
         actionName: ActionName.LEARN,
         primaryAction: () => {
           window.open(
-            `${MESHERY_CLOUD_PROD}/academy/learning-paths/11111111-1111-1111-1111-111111111111/mastering-meshery`,
+            `https://layer5.io/learn/learning-paths/mastering-meshery`,
             '_blank',
           );
         },
